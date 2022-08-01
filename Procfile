@@ -1,1 +1,2 @@
-worker : npm install && npm i -g pm2 && pm2 link 44ahpi4v79ureap drbnfobrl2hn8hm && pm2 start index.js && pm2 save && pm2 logs && pm2 monit
+web: node . --server
+db: node . --db "mongodb+srv://Tio:9adkHfbc7jLwPYY7@cluster0.j6sn2.mongodb.net/?retryWrites=true&w=majority" --autocleartmp --restrict
