@@ -1,7 +1,7 @@
 {
-  "name": "rest-api-alpis",
+  "name": "railways",
   "version": "2.0.0",
-  "description": "make by alip free rest api",
+  "description": "cek start",
   "main": "index.js",
   "engines": {
     "node": "16.x"
