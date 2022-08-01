@@ -1,7 +1,7 @@
 {
-  "name": "railways",
+  "name": "rest-api-alpis",
   "version": "2.0.0",
-  "description": "cek start",
+  "description": "make by alip free rest api",
   "main": "index.js",
   "engines": {
     "node": "16.x"
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BOTCAHX/Rest-Api.git"
+    "url": "git+https://github.com/AlipBot/Api-Alpis.git"
   },
   "keywords": [
     "restapi",
@@ -25,9 +25,9 @@
   "author": "AlipBot",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BOTCAHX/Rest-Api/issues"
+    "url": "https://github.com/AlipBot/Api-Alpis/issues"
   },
-  "homepage": "https://github.com/BOTCAHX/Rest-Api#readme",
+  "homepage": "https://github.com/AlipBot/Api-Alpis#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "bitly": "^7.1.2",
@@ -61,7 +61,7 @@
     "soundoftext-js": "^1.0.2",
     "ssl-express-www": "^3.0.8",
     "tinyurl": "^1.1.7",
-    "translate-google-api": "^1.0.4"
+    "translate-google-api": "^1.0.4",
     "yt-search": "^2.10.3"
   }
 }
