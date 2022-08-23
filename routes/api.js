@@ -1375,14 +1375,14 @@ router.get('/maker/welcome1', async (req, res, next) => {
 	var imgpp = await isImageURL(pp)
 	var bgimg = await isImageURL(bg)
 
-    if (!name ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter name"})  
-	if (!grup ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter gpname"})  
-    if (!member ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter member"})  
-	if (!pp ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter pp"})  
-    if (!bg ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter bg"})  
+    if (!name ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter name"})  
+	if (!grup ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter gpname"})  
+    if (!member ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter member"})  
+	if (!pp ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter pp"})  
+    if (!bg ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter bg"})  
 
-	if ( !imgpp ) return res.json({ status : false, creator : 'Alip', message : "[!] cek kembali url image pp"}) 
-	if ( !bgimg ) return res.json({ status : false, creator : 'Alip', message : "[!] cek kembali url image bg"}) 
+	if ( !imgpp ) return res.json({ status : false, creator : 'Tio', message : "[!] cek kembali url image pp"}) 
+	if ( !bgimg ) return res.json({ status : false, creator : 'Tio', message : "[!] cek kembali url image bg"}) 
    
     Canvas.registerFont('./asset/font/Creme.ttf', { family: 'creme' })
 
@@ -1448,14 +1448,14 @@ router.get('/maker/goodbye1', async (req, res, next) => {
 	var imgpp = await isImageURL(pp)
 	var bgimg = await isImageURL(bg)
 
-    if (!name ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter name"})  
-	if (!grup ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter gpname"})  
-    if (!member ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter member"})  
-    if (!bg ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter bg"})  
-	if (!pp) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter pp"}) 
+    if (!name ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter name"})  
+	if (!grup ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter gpname"})  
+    if (!member ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter member"})  
+    if (!bg ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter bg"})  
+	if (!pp) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter pp"}) 
    
-	if ( !imgpp ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter pp Link pp dengan betul"}) 
-	if ( !bgimg ) return res.json({ status : false, creator : 'Alip', message : "[!] masukan parameter pp Link bg dengan betul"}) 
+	if ( !imgpp ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter pp Link pp dengan betul"}) 
+	if ( !bgimg ) return res.json({ status : false, creator : 'Tio', message : "[!] masukan parameter pp Link bg dengan betul"}) 
 
     Canvas.registerFont('./asset/font/Creme.ttf', { family: 'creme' })
 
