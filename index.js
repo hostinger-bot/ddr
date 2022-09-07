@@ -1,6 +1,6 @@
 //_______________________ ┏  Info  ┓ _______________________\\
 //
-//   Credit : TioXd 
+//   Credit : TioXd
 //   
 //   Note 
 //   Jangan Jual SC ini ,
@@ -44,7 +44,6 @@ app.use(function (req, res, next) {
   })
 
 app.use(function (err, req, res, next) {
-	
 	res.sendFile(__path + '/view/404.html')
   })
 
@@ -57,11 +56,10 @@ app.listen(PORT, () => {
 	██╔══██╗██╔══╝  ╚════██║   ██║   ██╔══██║██╔═══╝ ██║
 	██║  ██║███████╗███████║   ██║   ██║  ██║██║     ██║
 	╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝
-			                              Make By TioXd 
+			                              Make by TioXd
 								 
  Server running on http://localhost:` + PORT)
 console.log(`Hello ${creator}`)
 })
 
 module.exports = app
-
