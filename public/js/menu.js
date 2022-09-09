@@ -32,7 +32,7 @@ $.getJSON("https://api.countapi.xyz/hit/botcahx-rest-api.herokuapp.com/visitor",
 
 //count Time
 
-var countDownDate = new Date("Nov 09, 2022 00:00:00").getTime();
+var countDownDate = new Date("Jan 01, 2023 00:00:00").getTime();
 
 // Update Hitungan Mundur Setiap 1 Detik
 var x = setInterval(function() {
