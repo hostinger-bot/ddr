@@ -66,10 +66,7 @@ var countDownDate = new Date("Jan 01, 2023 00:00:00").getTime();
 // Update Hitungan Mundur Setiap 1 Detik
 var x = setInterval(function() {
 
-    // Mengambil Tanggal Dan Waktu
-    var now = new Date().getTime();
-
-    // Find the distance between now and the count down date
+// Find the distance between now and the count down date
     var distance = countDownDate - now;
 
     // Kalkulator Waktu Hari, Jam, Menit, Detik 
