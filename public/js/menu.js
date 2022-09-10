@@ -55,7 +55,7 @@ var x = setInterval(function() {
     // Ketika countdown timer sudah berakhir Maka Tulisan Berakhir
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("jadwaltime").innerHTML = "Berakhir";
+        document.getElementById("jadwaltime").innerHTML = "Happy New Year🎺";
     }
 }, 1000);
 //Jam
