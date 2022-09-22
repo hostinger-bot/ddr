@@ -1,4 +1,4 @@
-
+"yt-search": "^2.10.3"
 
 <p align="center">
 <img src="https://avatars.githubusercontent.com/AlipBot" width="200" height="200"/>
