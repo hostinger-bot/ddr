@@ -1259,9 +1259,11 @@ router.get('/maker/attp', async (req, res) => {
 const file = "./asset/image/attp.gif"
 
 let length = text.length
+
+
+
 		
-var font = 90
-if var font =90
+var font =90
 
 if (length>12){ font = 68}
 if (length>15){ font = 58}
