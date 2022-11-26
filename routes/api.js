@@ -1424,7 +1424,7 @@ can.context.drawImage(bg, 320, 0, 709, 360)
     canvas.context.fillText("x", 670, 215)
     canvas.context.font = '100px creme'
     canvas.context.fillText(shortText(grup, 17), 670, 300)
-    canvas.context.font = '40px creme'
+    canvas.context.font = '20px creme'
     canvas.context.textAlign = 'start'
     canvas.context.fillText(shortText(name, 40), 420, 420)
     canvas.context.font = '35px creme'
@@ -1497,7 +1497,7 @@ can.context.drawImage(bg, 320, 0, 709, 360)
     canvas.context.fillText("x", 670, 215)
     canvas.context.font = '100px creme'
     canvas.context.fillText(shortText(grup, 17), 670, 300)
-    canvas.context.font = '40px creme'
+    canvas.context.font = '20px creme'
     canvas.context.textAlign = 'start'
     canvas.context.fillText(shortText(name, 40), 420, 420)
     canvas.context.font = '35px creme'
