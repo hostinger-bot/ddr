@@ -1421,7 +1421,7 @@ can.context.drawImage(bg, 320, 0, 709, 360)
     canvas.context.fillText("Welcome", 670, 140)
     canvas.context.font = '100px Helvetica'
     canvas.context.fillText("____   ____", 670, 160)
-    canvas.context.fillText("•", 670, 215)
+    canvas.context.fillText("╳", 670, 215)
     canvas.context.font = '100px creme'
     canvas.context.fillText(shortText(grup, 17), 670, 300)
     canvas.context.font = '40px creme'
@@ -1494,7 +1494,7 @@ can.context.drawImage(bg, 320, 0, 709, 360)
     canvas.context.fillText("GoodBye", 670, 140)
     canvas.context.font = '100px Helvetica'
     canvas.context.fillText("____   ____", 670, 160)
-    canvas.context.fillText("•", 670, 215)
+    canvas.context.fillText("╳", 670, 215)
     canvas.context.font = '100px creme'
     canvas.context.fillText(shortText(grup, 17), 670, 300)
     canvas.context.font = '40px creme'
