@@ -6,7 +6,7 @@
 
 
 
-//
+// Function 2
 
 
     tag_battery_status = document.querySelector('small#battery_status');
@@ -14,7 +14,7 @@
    
 
 
-//Baterry
+//Batre hp
      setInterval(function() {
          navigator.getBattery().then(battery=> {
              battery_level = String(battery.level).split('.')[1];
@@ -30,17 +30,17 @@ $.getJSON("https://api.countapi.xyz/hit/botcahx-rest-api.herokuapp.com/visitor",
 })
 
 
-//count Time
+//COUNT TIME
 
-var countDownDate = new Date("Jan 01, 2023 00:00:00").getTime();
+var countDownDate = new Date("Jan 01, 2024 00:00:00").getTime();
 
 // Update Hitungan Mundur Setiap 1 Detik
 var x = setInterval(function() {
 
-    // Mengambil Tanggal Dan Waktu
+    //  Tanggal Dan Waktu
     var now = new Date().getTime();
 
-    // Find the distance between now and the count down date
+    // Jarak Waktu
     var distance = countDownDate - now;
 
     // Kalkulator Waktu Hari, Jam, Menit, Detik 
@@ -49,10 +49,10 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Menampilkan Hasil Di Dalam element Menggunakan id="time"
+    // Results
     document.getElementById("jadwaltime").innerHTML = days + "Hari  " + hours + "Jam " + minutes + "Menit " + seconds + "Detik ";
 
-    // Ketika countdown timer sudah berakhir Maka Tulisan Berakhir
+    // End
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("jadwaltime").innerHTML = "Happy New Year🎺";
